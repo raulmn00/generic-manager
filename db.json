@@ -43,6 +43,33 @@
       "costs": 0,
       "services": [],
       "id": 4
+    },
+    {
+      "costs": 0,
+      "services": [],
+      "id": 5
+    },
+    {
+      "name": "teste",
+      "budget": "12345",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "costs": 0,
+      "services": [],
+      "id": 6
+    },
+    {
+      "name": "teste",
+      "budget": "1234",
+      "category": {
+        "id": "1",
+        "name": "Infraestrutura"
+      },
+      "costs": 0,
+      "services": [],
+      "id": 7
     }
   ],
   "categories": [
