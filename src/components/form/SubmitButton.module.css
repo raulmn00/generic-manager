@@ -1,0 +1,14 @@
+.submitButtonControl {
+    background-color: #222;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: .7em 1.2em;
+    border: none;
+    transition: 0.5s;
+}
+
+.submitButtonControl:hover{
+    color:#ffbb33;
+}

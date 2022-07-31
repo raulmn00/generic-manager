@@ -11,7 +11,7 @@ export default function NewProject() {
                     depois adicionar os serviços.
                 </p>
                 <div>
-                    <ProjectForm />
+                    <ProjectForm btnText="Criar Projeto" />
                 </div>
             </section>
         </>
