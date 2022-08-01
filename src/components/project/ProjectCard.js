@@ -9,6 +9,10 @@ export default function ProjectCard({
     category,
     handleRemove,
 }) {
+    const remove = (e) => {
+        e.preventDefault();
+        handleRemove(id);
+    };
     return (
         <div className={styles.projectCard}>
             <h4>{name}</h4>
@@ -23,7 +27,7 @@ export default function ProjectCard({
                 <Link to="/">
                     <BsPencil /> Editar
                 </Link>
-                <button>
+                <button onClick={remove}>
                     <BsFillTrashFill /> Excluir
                 </button>
             </div>
