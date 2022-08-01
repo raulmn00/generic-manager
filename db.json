@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "name": "teste",
-      "budget": "1234",
+      "name": "Projeto Teste|",
+      "budget": "2000",
       "category": {
         "id": "1",
         "name": "Infraestrutura"
@@ -12,8 +12,8 @@
       "id": 1
     },
     {
-      "name": "RAUL MARIACI NETO",
-      "budget": "1234",
+      "name": "Projeto Teste 2|",
+      "budget": "3000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
@@ -23,8 +23,8 @@
       "id": 2
     },
     {
-      "name": "teste",
-      "budget": "1234",
+      "name": "Projeto Teste 3|",
+      "budget": "40000",
       "category": {
         "id": "3",
         "name": "Design"
@@ -34,53 +34,26 @@
       "id": 3
     },
     {
-      "name": "RAUL MARIACI NETO",
-      "budget": "5000",
+      "name": "Projeto Teste 4|",
+      "budget": "50500",
       "category": {
-        "id": "1",
-        "name": "Infraestrutura"
+        "id": "4",
+        "name": "Planejamento"
       },
       "costs": 0,
       "services": [],
       "id": 4
     },
     {
+      "name": "Projeto Teste 5|",
+      "budget": "15405",
+      "category": {
+        "id": "1",
+        "name": "Infraestrutura"
+      },
       "costs": 0,
       "services": [],
       "id": 5
-    },
-    {
-      "name": "teste",
-      "budget": "12345",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "costs": 0,
-      "services": [],
-      "id": 6
-    },
-    {
-      "name": "teste",
-      "budget": "1234",
-      "category": {
-        "id": "1",
-        "name": "Infraestrutura"
-      },
-      "costs": 0,
-      "services": [],
-      "id": 7
-    },
-    {
-      "name": "teste",
-      "budget": "1235",
-      "category": {
-        "id": "1",
-        "name": "Infraestrutura"
-      },
-      "costs": 0,
-      "services": [],
-      "id": 8
     }
   ],
   "categories": [

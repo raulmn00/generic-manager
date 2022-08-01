@@ -1,0 +1,50 @@
+.projectCard {
+    padding: 1em;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    width: 24%;
+    margin: 0.5%;
+}
+
+.projectCard h4 {
+    background-color: #222;
+    color: #ffbb33;
+    padding: 0.4em;
+    margin-bottom: 1.3em;
+    font-size: 1.3em;
+}
+
+.projectCard p {
+    color: #222;
+    margin-bottom: 1em;
+}
+
+.projectCard p span {
+    font-weight: bold;
+}
+
+.categoryText {
+    display: flex;
+    align-items: center;
+}
+
+.categoryText span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 5px;
+}
+.categoryText .infraestrutura {
+    background-color: #ffaebc;
+}
+.categoryText .desenvolvimento {
+    background-color: #a0e7e5;
+}
+.categoryText .design {
+    background-color: #b4f8c8;
+}
+.categoryText .planejamento {
+    background-color: #fbe7c6;
+}
