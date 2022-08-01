@@ -24,7 +24,7 @@ export default function ProjectCard({
                 {category}
             </p>
             <div className={styles.projectCardActions}>
-                <Link to="/">
+                <Link to={`/project/${id}`}>
                     <BsPencil /> Editar
                 </Link>
                 <button onClick={remove}>
