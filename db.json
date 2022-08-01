@@ -70,6 +70,17 @@
       "costs": 0,
       "services": [],
       "id": 7
+    },
+    {
+      "name": "teste",
+      "budget": "1235",
+      "category": {
+        "id": "1",
+        "name": "Infraestrutura"
+      },
+      "costs": 0,
+      "services": [],
+      "id": 8
     }
   ],
   "categories": [
