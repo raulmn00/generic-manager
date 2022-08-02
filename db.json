@@ -18,8 +18,27 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "costs": 0,
-      "services": [],
+      "costs": 5000,
+      "services": [
+        {
+          "name": "Servico de Desenvolvimento",
+          "cost": "4000",
+          "description": "Servico de desenvolvimento generico",
+          "id": "6cc01a9a-1790-466d-8b14-bf4e8ebacd81"
+        },
+        {
+          "name": "Serviço de desenvolvimento 2",
+          "cost": "500",
+          "description": "Serviço generico de desenvolvimento para testes",
+          "id": "2f9ab8dd-6eb4-4b0d-b811-48aaeff8f1c7"
+        },
+        {
+          "name": "Serviço de desenvolvimento 2",
+          "cost": "500",
+          "description": "Serviço generico de desenvolvimento para testes",
+          "id": "2f9ab8dd-6eb4-4b0d-b811-48aaeff8f1c7"
+        }
+      ],
       "id": 2
     },
     {
@@ -47,8 +66,21 @@
         "id": "1",
         "name": "Infraestrutura"
       },
-      "costs": 0,
-      "services": [],
+      "costs": 3500,
+      "services": [
+        {
+          "name": "Contratar Dev PHP",
+          "cost": "1500",
+          "description": "Vai criar as funções para enviar emails e validar as respostas dos clientes.",
+          "id": "d72f45a1-0399-43bc-88c9-288ca14819cb"
+        },
+        {
+          "name": "Contratar Dev Backend",
+          "cost": "2000",
+          "description": "O backend irá montar a estrutura inicial de API do produto.",
+          "id": "a311e92c-cafb-4049-8798-5d201cf4904a"
+        }
+      ],
       "id": 4
     },
     {
