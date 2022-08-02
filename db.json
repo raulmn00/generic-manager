@@ -1,15 +1,59 @@
 {
   "projects": [
     {
-      "name": "Projeto Infra ",
-      "budget": "2000",
+      "name": "Projeto Infra Atualizado 2",
+      "budget": "3000",
+      "category": {
+        "id": "1",
+        "name": "Infraestrutura"
+      },
+      "costs": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "Projeto Desenvolvimento",
+      "budget": "30000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
       "costs": 0,
       "services": [],
-      "id": 1
+      "id": 2
+    },
+    {
+      "name": "Projeto Design",
+      "budget": "3000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "costs": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "name": "Projeto Infra ",
+      "budget": "20000",
+      "category": {
+        "id": "1",
+        "name": "Infraestrutura"
+      },
+      "costs": 0,
+      "services": [],
+      "id": 4
+    },
+    {
+      "name": "Projeto Desenvolvimento 2",
+      "budget": "3500",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "costs": 0,
+      "services": [],
+      "id": 5
     }
   ],
   "categories": [

@@ -10,7 +10,7 @@ import Loading from "../layout/Loading";
 export default function Projects() {
     const [projects, setProjects] = useState([]);
     const [removeLoading, setRemoveLoading] = useState(false);
-    const [projectMessage, setProjectMessage] = useState('');
+    const [projectMessage, setProjectMessage] = useState("");
 
     const location = useLocation();
     let message = "";
@@ -46,7 +46,7 @@ export default function Projects() {
             .then((resp) => resp.json())
             .then(() => {
                 setProjects(projects.filter((project) => project.id !== id));
-                setProjectMessage('Projeto removido com sucesso');
+                setProjectMessage("Projeto removido com sucesso");
             })
             .catch((err) => console.log(err));
     }
@@ -60,9 +60,9 @@ export default function Projects() {
                     textButton="Criar Projeto"
                 />
             </div>
-            {message && <Message type="sucess" text={message} />}
+            {message && <Message type="success" text={message} />}
 
-            {projectMessage && <Message type="sucess" text={projectMessage} />}
+            {projectMessage && <Message type="success" text={projectMessage} />}
 
             <Container customClass="start">
                 {projects.length > 0 &&
