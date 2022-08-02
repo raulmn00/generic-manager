@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "Projeto Infra Atualizado 2",
-      "budget": "3000",
+      "budget": "3500",
       "category": {
         "id": "1",
         "name": "Infraestrutura"
@@ -29,8 +29,15 @@
         "id": "3",
         "name": "Design"
       },
-      "costs": 0,
-      "services": [],
+      "costs": 500,
+      "services": [
+        {
+          "name": "servico de design",
+          "cost": "500",
+          "description": "servico de design generico",
+          "id": "a9c8326f-8c69-4d56-8056-f02e95fee9d2"
+        }
+      ],
       "id": 3
     },
     {
@@ -54,6 +61,17 @@
       "costs": 0,
       "services": [],
       "id": 5
+    },
+    {
+      "name": "Projeto Vercel Teste Editado",
+      "budget": "16000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "costs": 0,
+      "services": [],
+      "id": 6
     }
   ],
   "categories": [
